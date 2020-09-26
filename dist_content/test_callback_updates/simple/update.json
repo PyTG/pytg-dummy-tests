@@ -1,0 +1,57 @@
+{
+    "update_id": 986444721,
+    "callback_query": {
+      "id": "1143130119873169461",
+      "from": {
+        "id": 10001,
+        "is_bot": false,
+        "first_name": "aegroto",
+        "username": "aegroto",
+        "language_code": "en"
+      },
+      "message": {
+        "message_id": 1,
+        "chat": {
+          "id": -1,
+          "title": "Affari da nerd test channel",
+          "type": "channel"
+        },
+        "date": 1600782629,
+        "edit_date": 1600782630,
+        "text": "Oggetto di prova\n\n🕹 Venduto e spedito da Multiplayer\n🏷 prezzo\n📍 link\n\n|🗓 Offerte della settimana - https://bit.ly/2LAdmBc",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 18,
+            "type": "bold"
+          },
+          {
+            "offset": 21,
+            "length": 33,
+            "type": "italic"
+          },
+          {
+            "offset": 103,
+            "length": 22,
+            "type": "url"
+          }
+        ],
+        "reply_markup": {
+          "inline_keyboard": [
+            [
+              {
+                "text": "UP",
+                "callback_data": "add_reaction,UP"
+              },
+              {
+                "text": "DOWN",
+                "callback_data": "add_reaction,DOWN"
+              }
+            ]
+          ]
+        }
+      },
+      "chat_instance": "3800248130585053197",
+      "data": "add_reaction,UP"
+    }
+  }
